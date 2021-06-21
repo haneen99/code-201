@@ -8,4 +8,7 @@ var yourFavouriteplace=prompt(" what's your favorite place: desert or forest");
 
 while(yourFavouriteplace != "desert" &&yourFavouriteplace!="forest" ){yourFavouriteplace=prompt("YOU HAVE TO CHOOSE ONE")}
 var place=prompt("how many place do you need to show");
-for(var i=1; i<=place; i++){document.write(
+document.write("your favourite place! ",yourFavouriteplace);
+
+
+
